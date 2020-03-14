@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Django + Celery + Docker</title>
+    <link rel="stylesheet" type="text/css" href="/staticfiles/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="column is-two-thirds">
+          <h1 class="title">Django + Celery + Docker</h1>
+          <hr><br>
+          <div>
+            <h2 class="title is-2">Tasks</h2>
+            <h3>Choose a task length:</h3>
+            <div class="field is-grouped">
+              <p class="control">
+                <button class="button is-primary" data-type="1">Short</button>
+                <button class="button is-primary" data-type="2">Medium</button>
+                <button class="button is-primary" data-type="3">Long</button>
+              </p>
+            </div>
+          </div>
+          <br><br>
+          <div>
+            <h2 class="title is-2">Task Status</h2>
+            <br>
+            <table class="table is-fullwidth">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Status</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody id="tasks">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content container">
+        <hr>
+        <p><small><span class="text-muted">© <a href="http://mherman.org">Michael Herman</a></span></small></p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="{% static 'jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main.js' %}"></script>
+  </body>
+</html>
