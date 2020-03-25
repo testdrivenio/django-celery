@@ -34,7 +34,7 @@ function getStatus(taskID) {
 
     const taskStatus = res.task_status;
 
-    if (taskStatus === 'finished' || taskStatus === 'failed') return false;
+    if (taskStatus === 'SUCCESS' || taskStatus === 'FAILURE') return false;
     setTimeout(function() {
       getStatus(res.task_id);
     }, 1000);
