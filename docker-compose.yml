@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.8'
 
 services:
   web:
@@ -32,6 +32,9 @@ services:
       - web
       - redis
 
+  redis:
+    image: redis:6-alpine
+
   dashboard:
     build: ./project
     command:  flower -A core --port=5555 --broker=redis://redis:6379/0
@@ -47,6 +50,3 @@ services:
       - web
       - redis
       - celery
-
-  redis:
-    image: redis:5-alpine
