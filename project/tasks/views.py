@@ -6,8 +6,6 @@ from celery.result import AsyncResult
 
 from tasks.sample_tasks import create_task
 
-from tasks.sample_tasks import create_task
-
 
 def home(request):
     return render(request, "home.html")
