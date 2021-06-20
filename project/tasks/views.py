@@ -2,6 +2,9 @@ from celery.result import AsyncResult
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
+from celery.result import AsyncResult
+
+from tasks.sample_tasks import create_task
 
 from tasks.sample_tasks import create_task
 
