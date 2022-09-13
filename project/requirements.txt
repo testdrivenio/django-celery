@@ -1,6 +1,6 @@
 celery==4.4.7
 Django==3.2.4
-flower==0.9.7
+flower==1.2.0
 redis==3.5.3
 
 pytest==6.2.4
