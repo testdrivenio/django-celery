@@ -1,7 +1,12 @@
+import json
+from unittest.mock import patch
+
 from django.urls import reverse
 from tasks import sample_tasks
 from unittest.mock import patch
 import json
+
+from tasks import sample_tasks
 
 
 def test_home(client):
