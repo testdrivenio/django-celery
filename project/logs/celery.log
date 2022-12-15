@@ -1,0 +1,189 @@
+[2022-12-15 18:15:20,338: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:15:21,328: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:15:23,342: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:15:24,214: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:15:25,080: INFO/MainProcess] celery@de308b1b8017 ready.
+[2022-12-15 18:15:40,132: INFO/MainProcess] Task tasks.sample_tasks.create_task[c4589a0d-f718-4d75-a673-fe3626827385] received
+[2022-12-15 18:15:40,153: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[c4589a0d-f718-4d75-a673-fe3626827385] succeeded in 0.016174572000181797s: True
+[2022-12-15 18:19:07,717: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:19:07,722: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:19:08,738: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:19:08,754: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:19:08,757: INFO/MainProcess] celery@af0d6f8d17ae ready.
+[2022-12-15 18:22:12,291: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:22:12,300: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:22:13,317: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:22:13,334: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:22:13,336: INFO/MainProcess] celery@ce1085ca0a9a ready.
+[2022-12-15 18:22:16,364: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:22:16,539: INFO/MainProcess] Task tasks.sample_tasks.create_task[89b10655-daa5-4410-9149-8bdfb67caea4] received
+[2022-12-15 18:22:17,369: INFO/MainProcess] Task tasks.sample_tasks.create_task[00fa7064-2b3a-4069-968e-843bd9ac78ab] received
+[2022-12-15 18:22:26,548: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[89b10655-daa5-4410-9149-8bdfb67caea4] succeeded in 10.003735102000064s: True
+[2022-12-15 18:22:37,379: INFO/ForkPoolWorker-3] Task tasks.sample_tasks.create_task[00fa7064-2b3a-4069-968e-843bd9ac78ab] succeeded in 20.003829327999938s: True
+[2022-12-15 18:23:56,831: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:23:56,857: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:23:56,953: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:23:56,966: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:23:57,040: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:23:57,048: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:23:57,879: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:23:57,908: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:23:57,913: INFO/MainProcess] celery@8070563cbb36 ready.
+[2022-12-15 18:23:57,981: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:23:57,998: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:23:58,001: INFO/MainProcess] celery@2000cde510bf ready.
+[2022-12-15 18:23:58,062: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:23:58,082: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:23:58,086: INFO/MainProcess] celery@a7a27930fae8 ready.
+[2022-12-15 18:23:58,204: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:23:58,204: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:23:58,204: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:30:00,086: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:30:00,095: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:30:01,110: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:30:01,127: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:30:01,130: INFO/MainProcess] celery@5b95495a1700 ready.
+[2022-12-15 18:30:04,471: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:32:44,295: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:32:44,310: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:32:45,328: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:32:45,344: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:32:45,347: INFO/MainProcess] celery@56f9d01c3050 ready.
+[2022-12-15 18:32:46,879: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:35:42,167: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:35:42,173: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:35:43,186: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:35:43,203: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:35:43,207: INFO/MainProcess] celery@9bb4285f9d1d ready.
+[2022-12-15 18:35:46,539: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:38:30,509: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:38:30,518: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:38:31,543: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:38:31,561: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:38:31,563: INFO/MainProcess] celery@f1e9c7ae1e44 ready.
+[2022-12-15 18:38:32,808: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:40:59,561: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:40:59,567: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:41:00,583: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:41:00,598: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:41:00,600: INFO/MainProcess] celery@545d19c2bc2d ready.
+[2022-12-15 18:41:04,551: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:42:48,416: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:42:48,433: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:42:48,439: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:42:48,447: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:42:49,466: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:42:49,484: INFO/MainProcess] celery@e9980bbce452 ready.
+[2022-12-15 18:42:52,710: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:43:26,965: INFO/MainProcess] Task tasks.sample_tasks.create_task[2ee60962-3851-40c9-9a30-000bb2ff76ad] received
+[2022-12-15 18:43:36,975: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[2ee60962-3851-40c9-9a30-000bb2ff76ad] succeeded in 10.005992372000037s: True
+[2022-12-15 18:47:12,367: INFO/MainProcess] Task tasks.sample_tasks.create_task[909d583d-6a13-4af8-88ad-f88e588ca21b] received
+[2022-12-15 18:47:12,371: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[909d583d-6a13-4af8-88ad-f88e588ca21b] succeeded in 0.001389039999594388s: True
+[2022-12-15 18:47:38,542: INFO/MainProcess] Task tasks.sample_tasks.create_task[72f52fd2-bb9d-4eff-89d6-3569d3d9a8f8] received
+[2022-12-15 18:47:38,548: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[72f52fd2-bb9d-4eff-89d6-3569d3d9a8f8] succeeded in 0.00168798900085676s: True
+[2022-12-15 18:49:02,255: INFO/MainProcess] Task tasks.sample_tasks.create_task[32ae9f28-a9fc-42c2-9285-d323e25c88b6] received
+[2022-12-15 18:49:02,261: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[32ae9f28-a9fc-42c2-9285-d323e25c88b6] succeeded in 0.0022233569998206804s: True
+[2022-12-15 18:49:38,400: INFO/MainProcess] Task tasks.sample_tasks.create_task[51fe1120-08e4-4fd4-8375-152feb0552e4] received
+[2022-12-15 18:49:38,405: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[51fe1120-08e4-4fd4-8375-152feb0552e4] succeeded in 0.0018964320006489288s: True
+[2022-12-15 18:50:49,969: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:50:49,982: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:50:49,986: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:50:49,992: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:50:51,007: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:50:51,022: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:217: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-15 18:50:51,024: INFO/MainProcess] celery@2e151e759e76 ready.
+[2022-12-15 18:50:53,446: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:51:36,382: INFO/MainProcess] Task tasks.sample_tasks.create_task[f1aadb69-ea9d-4c1b-9bd2-8e635385feec] received
+[2022-12-15 18:51:36,392: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[f1aadb69-ea9d-4c1b-9bd2-8e635385feec] succeeded in 0.004854984000303375s: True
+[2022-12-15 18:52:39,668: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:52:39,679: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:52:39,685: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:52:39,695: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:52:40,709: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:52:40,725: INFO/MainProcess] celery@c3cc97d042cd ready.
+[2022-12-15 18:52:40,870: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:56:39,022: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:56:39,032: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-12-15 18:56:39,036: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:491: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2022-12-15 18:56:39,040: INFO/MainProcess] mingle: searching for neighbors
+[2022-12-15 18:56:40,054: INFO/MainProcess] mingle: all alone
+[2022-12-15 18:56:40,073: INFO/MainProcess] celery@2668a5ed0cd4 ready.
+[2022-12-15 18:56:40,966: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-12-15 18:56:54,427: INFO/MainProcess] Task tasks.sample_tasks.create_task[632610bb-59d9-499a-bcb2-60efeaed1f99] received
+[2022-12-15 18:56:54,437: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[632610bb-59d9-499a-bcb2-60efeaed1f99] succeeded in 0.0046610399995188345s: True
