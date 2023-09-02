@@ -4,3 +4,4 @@ env
 *.sqlite3
 .DS_Store
 staticfiles
+.idea/*
